@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+pizza-store-frontend/node_modules/
+pizza-store-backend/node_modules/
+
+# Environment variables (NEVER upload these)
+.env
+pizza-store-backend/.env
+pizza-store-frontend/.env.local
+
+# Build/Production directories
+pizza-store-frontend/build/
+dist/
+
+# Test outputs
+/coverage
+test_output.txt
+navbar_test_output.txt
+all_test_failures.txt
+
+# OS files
+.DS_Store
+Thumbs.db
